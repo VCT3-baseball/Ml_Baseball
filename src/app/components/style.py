@@ -22,13 +22,7 @@ html, body {
 [data-testid="stSidebar"] strong { color: #fff !important; }
 [data-testid="stSidebar"] hr { border-color: rgba(255,255,255,0.12) !important; }
 [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 { color: #fff !important; }
-/* 커스텀 콘텐츠를 네비게이션 메뉴보다 위로 */
-[data-testid="stSidebar"] > div:first-child {
-    display: flex;
-    flex-direction: column;
-}
-[data-testid="stSidebarNav"]     { order: 2; }
-[data-testid="stSidebarContent"] { order: 1; padding-top: 0.5rem; }
+[data-testid="stSidebarContent"] { padding-top: 0.5rem; }
 
 /* 사이드바 multiselect */
 [data-testid="stSidebar"] .stMultiSelect [data-baseweb="select"] { background: white !important; border-radius: 8px; }
